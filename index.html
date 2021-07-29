@@ -5,13 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Honda Motors</title>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/cd506418ae.js" crossorigin="anonymous"></script>
+    <!-- bootstrap stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- header start -->
     <header>
-        <section>
-            <div>
-
+        <section class="d-flex align-items-center bg-color-custom p-5 text-white">
+            <div class="ps-5 w-50 ms-5">
+                <p>Computer-controlled digital transistorized with electronic advance</p>
+                <h1>Honda CBR 300R</h1>
+                <p>The Honda Motor Company, Ltd. is a Japanese public multinational conglomerate manufacturer of automobiles, motorcycles, and power equipment, headquartered in Minato, Tokyo, Japan.</p>
+                <a class="btn btn-danger" href="#" role="button">Purchase</a>
+                <div>
+                    <div class="modal" tabindex="-1">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Modal body text goes here.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div>
                 <img src="images/header-bike.png" alt="">
@@ -20,10 +48,71 @@
     </header>
     <!-- header end -->
     <main>
+        <!-- fetured bikes section -->
+        <section class="container my-5">
+            <div class="d-flex justify-content-center">
+                <div>
+                    <h1 class="heading">Fetured Bikes 2021</h1>
+                    <p class="tagline">Best bike collection</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center justify-content-around">
+                <img class="gray" src="images/feature-bike.jpg" alt="" width="288" height="243">
+                <img src="images/feature-bike.jpg" alt="" width="288" height="243">
+                <img class="gray" src="images/feature-bike.jpg" alt="" width="288" height="243">
+            </div>
+        </section>
+        <!-- clients says section -->
+        <section class="container my-5">
+            <div>
+                <h1>Happy Clients says</h1>
+            </div>
+            <div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 d-flex align-items-center p-3">
+                        <img src="images/user-1.png" class="" alt="..." width="149" height="149">
+                            <div class="card-body">
+                                <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                                <h5 class="card-title">Regina Miles</h5>
+                                <h5 class="card-title">Banker</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 d-flex align-items-center p-3">
+                        <img src="images/user-2.png" class="" alt="..." width="149" height="149">
+                            <div class="card-body">
+                                <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                                <h5 class="card-title">Regina Miles</h5>
+                                <h5 class="card-title">Banker</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 d-flex align-items-center p-3">
+                            <div>
+                                <img src="images/user-3.jpg" class="rounded-circle" alt="..." width="149" height="149">
+                            </div>
+                            <div class="card-body">
+                                <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                                <h5 class="card-title">Regina Miles</h5>
+                                <h5 class="card-title">Banker</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ section -->
+        <section>
 
+        </section>
     </main>
     <footer>
-        
+
     </footer>
+    <!-- bootstrap script -->
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
