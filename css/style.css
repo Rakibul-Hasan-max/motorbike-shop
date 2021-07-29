@@ -20,6 +20,15 @@ body{
     color: #E76F51;
     font-weight: 600;
     font-size: 14px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.bikes{
+    margin-bottom: 120px;
+}
+.custom-hw{
+    height: 478px;
+    width: 322px;
 }
 .client{
     text-align: center;
@@ -29,6 +38,32 @@ body{
 }
 .man{
     margin: 40px 86px 30px 86px;
+}
+.text-p{
+    font-size: 16px;
+    color: #6C6C6C;
+    font-weight: 400;
+    text-align: center;
+}
+.star{
+    color: #E77C40;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#empty{
+    color: gray;
+}
+.text-title{
+    font-size: 14px;
+    font-weight: 600;
+    color: #23A6F0;
+    text-align: center;
+}
+.banker{
+    font-size: 14px;
+    font-weight: 600;
+    color: #252B42;
+    text-align: center;
 }
 .faq{
     color: #0D0925;
