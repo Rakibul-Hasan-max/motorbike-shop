@@ -13,6 +13,24 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="modal fade" id="purchase" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Purchase Condition</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Can you return a motorcycle after purchase?</strong> 
+            In general, you cannot return a motorcycle to a private seller after paying them and signing a bill of sale. When you privately buy a motorcycle, you are agreeing to buy it “as is” and the seller holds no obligation to you to take it back and give you your money back.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Ok</button>
+        </div>
+      </div>
+    </div>
+  </div>
     <!-- header start -->
     <header>
         <section class="d-flex align-items-center bg-color-custom p-5 text-white">
@@ -21,7 +39,11 @@
                 <h1>Honda CBR 300R</h1>
                 <br>
                 <p>The Honda Motor Company, Ltd. is a Japanese public multinational conglomerate manufacturer of automobiles, motorcycles, and power equipment, headquartered in Minato, Tokyo, Japan.</p>
-                <a class="btn btn-danger" href="#" role="button">Purchase</a>
+                <!-- <a class="btn btn-danger" href="#" role="button">Purchase</a> -->
+                <div>
+                    <button class="pur-btn"data-bs-toggle="modal" data-bs-target="#purchase">
+                    Purchase</button>
+                </div>
                 </div>
                 <div>
                     <img src="images/header-bike.png" alt="">
@@ -61,7 +83,7 @@
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
-                                    <i class="fas fa-star" id="empty"></i>
+                                    <i class="far fa-star"></i>
                                 </div>
                                 <h5 class="text-title">Regina Miles</h5>
                                 <h5 class="banker">Banker</h5>
@@ -78,7 +100,7 @@
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
-                                    <i class="fas fa-star" id="empty"></i>
+                                    <i class="far fa-star"></i>
                                 </div>
                                 <h5 class="text-title">Regina Miles</h5>
                                 <h5 class="banker">Banker</h5>
@@ -97,7 +119,7 @@
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
-                                    <i class="fas fa-star" id="empty"></i>
+                                    <i class="far fa-star"></i>
                                 </div>
                                 <h5 class="text-title">Regina Miles</h5>
                                 <h5 class="banker">Banker</h5>

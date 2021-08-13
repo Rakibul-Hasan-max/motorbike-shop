@@ -8,6 +8,15 @@ body{
 .bg-color-custom{
     background-color: #264653;
 }
+.pur-btn {
+    background-color: #E76F51;
+    border: 0;
+    padding: 10px 46px;
+    color: #fff;
+    font: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+}
 .gray{
     filter: grayscale(100%);
 }
@@ -49,9 +58,6 @@ body{
     color: #E77C40;
     text-align: center;
     margin-bottom: 15px;
-}
-#empty{
-    color: gray;
 }
 .text-title{
     font-size: 14px;
